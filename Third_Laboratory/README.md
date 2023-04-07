@@ -6,10 +6,26 @@ This repository contains solutions for:
 
 ## Third Laboratory ##
 
+:white_check_mark: **Compulsory** - **all bullets** completed
+
 :white_check_mark: **Homework** - **all bullets** completed
 
 :white_check_mark: **Bonus** - **all bullets** completed
 
+## Compulsory Part ##
+
+:heavy_check_mark: Created _Person_ and _Company_ classes.
+  - _:file_folder: src/main/java/com/entities/Person.java_
+  - _:file_folder: src/main/java/com/entities/Company.java_
+
+:heavy_check_mark: Both classes implement the _java.util.Comparable_ interface. The natural order of the objects is given by their names.
+
+:heavy_check_mark: Created a _Node_ interface that defines the _getName()_ method. Both _Person_ and _Company_ classes implement this interface.
+- _:file_folder: src/main/java/com/graph/Node.java_
+
+:heavy_check_mark: Created a _java.util.List_ that contains _Node_ objects. Printed the objects on the screen using the _getName()_ method.
+- _:file_folder: src/main/java/com/Main.java_
+  
 ## Homework Part ##
 
 :heavy_check_mark: Created a complete model: _Person_, _Programmer_, _Designer_, _Company_. All persons have a birth date and each class has one specific property.
