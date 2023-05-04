@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <File name="loggerFile" fileName="logs/lab8.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %C - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="loggerFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
