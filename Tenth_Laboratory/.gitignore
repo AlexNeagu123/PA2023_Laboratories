@@ -10,7 +10,6 @@
 *buildNumber.properties
 *.mvn/timing.properties
 *.mvn/wrapper/maven-wrapper.jar
-*tika-app-2.7.0.jar
 *.json
-*.log
 */tmp
+*/logs
